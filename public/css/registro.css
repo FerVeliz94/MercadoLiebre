@@ -1,0 +1,297 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+header{
+    background-color: #EAC926;
+}
+
+div.top-header{
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+header div.logo{
+    width: 50%;
+    padding: 5px;
+}
+
+header div.logo img{
+    width: 60%;
+}
+
+header div.top-header div.form button{
+    height: 22px;
+}
+
+header nav{
+    font-size: 12px;
+}
+
+header .form{
+    width: 50%;
+}
+
+header .form .input{
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 3px;
+    border:none;
+}
+header .form .submit{
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    width: 10%;
+    border:none;
+    cursor: pointer;
+}
+
+header div.top-header p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+div.burger-menu{
+    text-align: center;
+}
+
+.burger-menu i{
+    color: white;
+    font-size: 20px;
+    background-color: #0044AA;
+    border-radius: 8px;
+    margin: 15px 0 20px 0;
+    padding: 10px;
+    width: 40px;
+}
+
+main {
+    padding: 30px 0;
+}
+
+main div.form-container{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main div.form-container .user-data input{
+    width: 100%;
+    padding: 5px;
+    margin: 10px;
+    border: none;
+    border-radius: 3px;
+}
+
+main div.form-container .user-data label{
+    padding-left: 10px;
+    font-weight: 600;
+}
+
+main div.form-container .user-profile{
+    padding: 10px;
+}
+
+main div.form-container .user-profile .tipe-profile{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    justify-content: space-around;
+}
+
+input{
+    margin-right: 5px;
+}
+
+main div.form-container .intereses{
+    padding: 10px;
+}
+
+main div.form-container .intereses .lista-intereses{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+main .documentos{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+main .documentos input{
+    cursor: pointer;
+}
+
+main .passwords{
+    display: flex;
+    flex-direction: column;
+}
+
+main .passwords input{
+    padding: 5px;
+    margin: 5px 10px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+main .buttons button{
+    padding: 5px;
+    margin: 5px 10px;
+    width: 150px;
+    height: 30px;
+    background-color: #1259c3;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    color: #FFF;
+}
+
+nav{
+    display: none;
+}
+
+header nav ul li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color:black;
+}
+
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+p{
+    font-size: 12px;
+}
+
+.banner img{
+    width: 100%;
+}
+
+footer .container i{
+    color: #1259c3;
+    font-size: 30px;
+}
+
+footer .container{
+    padding: 10px 0;
+}
+
+footer{
+    padding-top: 30px;
+    text-align: center;
+}
+
+footer .container h4{
+    margin: 3px 0 0 0;
+}
+footer .container p{
+    margin: 0 60px;
+}
+
+
+/* Tablet */
+@media screen and (min-width:361px) and (max-width:769px) {
+    
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    div.burger-menu{
+        display: none;
+    }
+
+    header .form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 33%;
+    }
+    nav div .nav-ml{
+        display: flex;
+    }
+    
+    nav div .nav-user{
+        display: flex;
+    }
+    header div.logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 33%;
+    }
+    footer .contenido .container i:hover{
+        color:#EAC926;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width:769px) {
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    div.burger-menu{
+        display: none;
+    }
+    header .form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 33%;
+    }
+    nav div .nav-ml{
+        display: flex;
+        padding-left: 20px;
+    }
+    
+    nav div .nav-user{
+        display: flex;
+        padding-right: 20px;
+    }
+    header div.logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 33%;
+    }
+    header div.top-header p{
+        width: 33%;
+    }
+    footer .contenido{
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 0;
+    }
+    footer .contenido .container i:hover{
+        color:#EAC926;
+    }
+}
