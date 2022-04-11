@@ -49,7 +49,7 @@ div.top-header{
     align-items: center;
 }
 
-header div.top-header div.form button{
+header div.top-header form button{
     height: 22px;
 }
 
@@ -177,7 +177,8 @@ article div.articulo-principal{
 
 footer .container i{
     color: #1259c3;
-    font-size: 30px;
+    font-size: 2em;
+    margin-bottom: 10px;
 }
 
 footer .container{

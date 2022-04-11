@@ -30,7 +30,7 @@ header div.logo img{
     width: 60%;
 }
 
-header div.top-header div.form button{
+header div.top-header form button{
     height: 22px;
 }
 
@@ -199,7 +199,8 @@ p{
 
 footer .container i{
     color: #1259c3;
-    font-size: 30px;
+    font-size: 2em;
+    margin-bottom: 10px;
 }
 
 footer .container{
